@@ -1,5 +1,8 @@
 # Test-driven Development in JS
 
+This repo contains files related to my study of this [article](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3)
+-- the words here are just *notes* for my personal use.
+
 Test-driven development cycle
 1. Write test
 2. Run test (expect FAILURE)
@@ -12,5 +15,4 @@ Test-driven development cycle
 
 Testing Frameworks
 * see vanillatests.js - simple vanilla JS test framework
-  --- adapted from this [article](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3)
 
