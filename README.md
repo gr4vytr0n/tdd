@@ -15,6 +15,8 @@ Test-driven development cycle
 
 Testing Frameworks
 * see vanillatests.js - simple vanilla JS test framework
+  - see double.test.js
+* see tape/double.test.js
 
 Types of Tests
 * unit tests - test isolated components

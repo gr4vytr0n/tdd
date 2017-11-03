@@ -1,9 +1,10 @@
 const test = require('./test.js')
+
 // double function
 const double = x => x * 2
 
 // test(component aspect is being tested>)
-test('Double function outputs double input', assert => {
+test('Double function outputs input', assert => {
   const actual = double(2)
   const expected = 4
 
