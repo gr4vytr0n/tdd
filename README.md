@@ -19,7 +19,17 @@ Testing Frameworks
 Types of Tests
 * unit tests - test isolated components
 * funtional/end-to-end(e2e) & integration tests - tests must be integrated
-- tests should not have shared mutable state 
+- tests should not have shared mutable state
+- unit tests must be fast and deterministic - they should not depend on network, access to storage, etc.
+- unit tests:
+  - given same input will have same output
+  - has no side effects
+  - provide realtime feedback to developers as they code
+- tests with side effects should be done with functional/e2e tests
+- separate things like network/database/API communication from the logic that processes the data returned
+* functional tests must be integrated
+  - functional tests make sure entire app works
+  - provide end-to-end acceptance and integration tests to validate user stories are satisfied
 
 ## Writing Good Unit Tests
 * write tests first
